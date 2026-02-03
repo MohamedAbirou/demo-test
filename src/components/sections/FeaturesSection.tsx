@@ -5,8 +5,8 @@ const featureCards: Feature[] = [
   {
     title: "Keep your Mac clean",
     description: "Remove junk, scan for malware, wipe email attachments",
-    icon: "/icon-cmm.png.png",
-    image: "/cmm-big@2x.png.png",
+    icon: "/images/icon-cmm.png.png",
+    image: "/images/cmm-big@2x.png.png",
     bgColor: "bg-[#df96ae]",
     textColor: "text-[#26262b]",
     layout: "horizontal",
@@ -14,8 +14,8 @@ const featureCards: Feature[] = [
   {
     title: "Write code",
     description: "Create applications in more than 25 languages",
-    icon: "/icon-coderunner.png.png",
-    image: "/coderunner@2x.png.png",
+    icon: "/images/icon-coderunner.png.png",
+    image: "/images/coderunner@2x.png.png",
     bgColor: "bg-[#f4f0e4]",
     textColor: "text-[#26262b]",
     layout: "vertical-image-top",
@@ -23,8 +23,8 @@ const featureCards: Feature[] = [
   {
     title: "Join meetings in a click",
     description: "Quickly access links to your meetings from menu bar",
-    icon: "/icon-meeter.png.png",
-    image: "/meeter@2x.png.png",
+    icon: "/images/icon-meeter.png.png",
+    image: "/images/meeter@2x.png.png",
     bgColor: "bg-[#384c75]",
     textColor: "text-white",
     layout: "vertical-image-bottom-flush",

@@ -46,7 +46,7 @@ export const Footer = () => {
             <img
               className="w-full max-w-md h-8 mb-12 md:mb-20"
               alt="Setapp Logo"
-              src="/div-logo.svg"
+              src="/images/div-logo.svg"
             />
 
             <div className="flex flex-col gap-6 max-w-md">
@@ -54,7 +54,7 @@ export const Footer = () => {
                 <p className="text-base text-white font-normal leading-relaxed">
                   Updates from our team, written with love
                 </p>
-                <img className="w-4 h-4 flex-shrink-0" alt="Heart" src="/svg-1.svg" />
+                <img className="w-4 h-4 flex-shrink-0" alt="Heart" src="/images/svg-1.svg" />
               </div>
 
               <div className="flex">
@@ -124,7 +124,7 @@ export const Footer = () => {
           </div>
 
           <button className="inline-flex items-center gap-2">
-            <img className="w-7 h-4" alt="English flag" src="/en-svg.svg" />
+            <img className="w-7 h-4" alt="English flag" src="/images/en-svg.svg" />
             <select className="bg-[#2b2d32] text-white text-base font-normal">
               <option value="english">English</option>
               <option value="french">French</option>
@@ -141,7 +141,7 @@ export const Footer = () => {
             Ireland. Reg. 584165. VAT ID: IE3425001BH
           </p>
 
-          <img className="w-auto h-auto" alt="Payment methods" src="/div-col-12-1.svg" />
+          <img className="w-auto h-auto" alt="Payment methods" src="/images/div-col-12-1.svg" />
         </div>
 
         <div className="flex items-start gap-3">

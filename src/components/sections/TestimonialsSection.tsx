@@ -14,7 +14,7 @@ const testimonials = [
     author: "Arash Pourhabibi",
     handle: "@ArashPourhabibi",
     bgColor: "bg-[#71719a]",
-    socialIcon: "/div-testimonial-card--social-icon-1.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon-1.svg",
   },
   {
     quote:
@@ -22,7 +22,7 @@ const testimonials = [
     author: "Mauricio Sanchez",
     handle: "@m741s",
     bgColor: "bg-[#d9ae89]",
-    socialIcon: "/div-testimonial-card--social-icon.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon.svg",
   },
   {
     quote:
@@ -30,7 +30,7 @@ const testimonials = [
     author: "Meredith Sweet",
     handle: "@meredith.sweet.silberstein",
     bgColor: "bg-[#765070]",
-    socialIcon: "/div-testimonial-card--social-icon-2.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon-2.svg",
   },
   {
     quote:
@@ -38,7 +38,7 @@ const testimonials = [
     author: "David Martinez",
     handle: "@davidm",
     bgColor: "bg-[#4a6fa5]",
-    socialIcon: "/div-testimonial-card--social-icon.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon.svg",
   },
   {
     quote:
@@ -46,7 +46,7 @@ const testimonials = [
     author: "Sophie Chen",
     handle: "@sophiechen",
     bgColor: "bg-[#6b8e7f]",
-    socialIcon: "/div-testimonial-card--social-icon-1.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon-1.svg",
   },
   {
     quote:
@@ -54,7 +54,7 @@ const testimonials = [
     author: "Alex Thompson",
     handle: "@alexthompson",
     bgColor: "bg-[#c77b8d]",
-    socialIcon: "/div-testimonial-card--social-icon-2.svg",
+    socialIcon: "/images/div-testimonial-card--social-icon-2.svg",
   },
 ];
 
@@ -96,10 +96,10 @@ export const TestimonialsSection = () => {
           </p>
 
           <div className="flex items-center gap-3">
-            <img src="/Facebook.png" className="w-12 h-12" alt="facebook" />
-            <img src="/Twitter.png" className="w-12 h-12" alt="twitter" />
-            <img src="/Instagram.png" className="w-12 h-12" alt="instagram" />
-            <img src="/Youtube.png" className="w-12 h-12" alt="youtube" />
+            <img src="/images/Facebook.png" className="w-12 h-12" alt="facebook" />
+            <img src="/images/Twitter.png" className="w-12 h-12" alt="twitter" />
+            <img src="/images/Instagram.png" className="w-12 h-12" alt="instagram" />
+            <img src="/images/Youtube.png" className="w-12 h-12" alt="youtube" />
           </div>
 
         </div>

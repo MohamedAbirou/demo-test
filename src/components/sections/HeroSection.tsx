@@ -1,21 +1,21 @@
 import { Button } from "../ui/button";
 
 const floatingIcons = [
-  { src: "/teamwork-svg.png", className: "top-[60%] left-[7%] hidden lg:block" },
-  { src: "/secure-svg.png", className: "top-[74%] left-[7%] hidden lg:block" },
-  { src: "/pics-svg.png", className: "top-[5%] left-[7%] hidden lg:block" },
-  { src: "/macpaw-svg.png", className: "top-[27%] left-[7%] hidden md:block" },
-  { src: "/pdf-svg.png", className: "top-[27%] left-[14%] hidden xl:block" },
-  { src: "/wifi-svg.png", className: "top-[8%] right-[7%] hidden lg:block" },
-  { src: "/plan-svg.png", className: "top-[19%] right-[15%] hidden xl:block" },
-  { src: "/manage-svg.png", className: "top-[60%] right-[11%] hidden lg:block" },
-  { src: "/converter-svg.png", className: "top-[42%] right-[7%] hidden xl:block" },
-  { src: "/code-svg.png", className: "top-[78%] right-[13%] hidden lg:block" },
+  { src: "/images/teamwork-svg.png", className: "top-[60%] left-[7%] hidden lg:block" },
+  { src: "/images/secure-svg.png", className: "top-[74%] left-[7%] hidden lg:block" },
+  { src: "/images/pics-svg.png", className: "top-[5%] left-[7%] hidden lg:block" },
+  { src: "/images/macpaw-svg.png", className: "top-[27%] left-[7%] hidden md:block" },
+  { src: "/images/pdf-svg.png", className: "top-[27%] left-[14%] hidden xl:block" },
+  { src: "/images/wifi-svg.png", className: "top-[8%] right-[7%] hidden lg:block" },
+  { src: "/images/plan-svg.png", className: "top-[19%] right-[15%] hidden xl:block" },
+  { src: "/images/manage-svg.png", className: "top-[60%] right-[11%] hidden lg:block" },
+  { src: "/images/converter-svg.png", className: "top-[42%] right-[7%] hidden xl:block" },
+  { src: "/images/code-svg.png", className: "top-[78%] right-[13%] hidden lg:block" },
 ];
 
 const socialLinks = [
-  { src: "/link-1.svg", alt: "Apple App Store" },
-  { src: "/link-2.svg", alt: "Google Play Store" },
+  { src: "/images/link-1.svg", alt: "Apple App Store" },
+  { src: "/images/link-2.svg", alt: "Google Play Store" },
 ];
 
 export const HeroSection = () => {
@@ -27,7 +27,7 @@ export const HeroSection = () => {
             <img
               className="w-32 h-32 md:w-40 md:h-40"
               alt="Setapp 15th Birthday"
-              src="/setapp-icon-birthday-15-svg.svg"
+              src="/images/setapp-icon-birthday-15-svg.svg"
             />
           </div>
 

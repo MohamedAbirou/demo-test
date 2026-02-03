@@ -42,7 +42,7 @@ export const Header = () => {
           <img
             className="h-8 w-auto"
             alt="Setapp Logo"
-            src="/link---go-to-homepage.svg"
+            src="/images/link---go-to-homepage.svg"
           />
         </a>
 
@@ -82,7 +82,7 @@ export const Header = () => {
           <div className="w-px h-5 bg-white" />
 
           <div className="flex items-center gap-6">
-            <img className="w-6 h-auto" alt="Search" src="/item.png" />
+            <img className="w-6 h-auto" alt="Search" src="/images/item.png" />
 
             <a
               href="#"
@@ -121,7 +121,7 @@ export const Header = () => {
           ))}
 
           <li className="flex justify-center">
-            <img className="w-6 h-auto" alt="Search" src="/item.png" />
+            <img className="w-6 h-auto" alt="Search" src="/images/item.png" />
           </li>
 
           <li>
