@@ -85,3 +85,41 @@
     -moz-osx-font-smoothing: grayscale;
   }
 }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, #26262b 0%, #26262b 100%);
+}
+
+.section-spacing {
+  @apply py-16 md:py-24 lg:py-32;
+}
+
+.container-custom {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.heading-xl {
+  @apply text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl;
+}
+
+.heading-lg {
+  @apply text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl;
+}
+
+.heading-md {
+  @apply text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl;
+}
+
+.body-lg {
+  @apply text-lg leading-relaxed sm:text-xl;
+}
+
+.body-md {
+  @apply text-base leading-relaxed sm:text-lg;
+}
